@@ -6,7 +6,7 @@
 # *Ponto a ponto (P2P)*
 
 - Rede ótima para compartilhamento de dados para uma quantidade de computadores menor que 12.
-- Há casos de o software cliente e o servidor serem executadors na mesma máquina. Esse tipo de rede é a ponto a ponto (peer-to-peer). 
+- Há casos de o software cliente e o servidor serem executados na mesma máquina. Esse tipo de rede é a ponto a ponto (peer-to-peer). 
 - Em uma rede P2P o processo para baixar um arquivo é diferente do esquema cliente-servidor. O usuário deve baixar um software P2P em seu computador que cria uma rede virtual de aplicações de usuários P2P. Quando for feito o download, o arquivo virá de diversos computadores conectados nesta rede que têm o arquivo solicitado. 
 
 ### *Arquitetura de uma rede P2P*
@@ -44,7 +44,7 @@
 # *Dispositivos intermediários*
 
 - Responsáveis por conectarem os dispositivos finais à rede. Também se conectam com outras redes individuais para assim formar a Internetwork.
-- Eles tem como funcionalidade: regenerar e transmitir sinais de comunicação; manter informações sobre quais caminhos existem pela rede e pela rede interconectada; notificar erros e flahas de comunicação para outros dispositivos; redirecionar dados quando houver uma falha em um link; classificar e direcionar mensagens de acordo com as prioridades; permitir ou negar o fluo de dados com base em configurações de segurança.
+- Eles tem como funcionalidade: regenerar e transmitir sinais de comunicação; manter informações sobre quais caminhos existem pela rede e pela rede interconectada; notificar erros e falhas de comunicação para outros dispositivos; redirecionar dados quando houver uma falha em um link; classificar e direcionar mensagens de acordo com as prioridades; permitir ou negar o fluxo de dados com base em configurações de segurança.
 
 ### *Exemplo de dispositivos intermediários*
 
