@@ -6,3 +6,4 @@
 - [[Cap. 4 - Conexões com a Internet]]
 - [[Cap. 5 - Redes Confiáveis]]
 - [[Cap. 6 - Tendencias das redes]]
+- [[Cap. 7 - Segurança de Redes]]
