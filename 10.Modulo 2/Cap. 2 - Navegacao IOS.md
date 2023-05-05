@@ -26,3 +26,13 @@
 
 - Usado para configurar uma porta de switch ou interface de rede do roteador. 
 - Seu prompt padrão aparece da seguinte forma **Switch(config-if)#**.
+
+# *Navegar entre os modos do IOS*
+
+- Use o comando **enable** no moco EXEC de usuário para acessar o modo privilegiado. Comando **disable** para fazer o contrário.
+- Entrar e sair do modo de configuração global **configure terminal**, deve ser executado no modo privilegiado. Para voltar para o modo EXEC privilegiado use o comando **exit**. 
+- **line console 0** para acessar o console de subconfiguração de linha. O parâmetro 'console' diz respeito a conexção entre os dispositivos, por exemplo, a porta RS232 está conectada a um switch com auxilio de um cabo console. **line vty 0 15** é um comando que também acessa o modo de configuração de linha, porém este é utilizado para o virtual terminal management. É usado para acesso remoto de administração do switch.
+- O comando **end** volta de qualquer modo de subconfiguração para o modo EXEC privilegiado. Também conseguimos o mesmo resultado usando a hotkey **Ctrl+z**. 
+- Pode mudar de um modo de subconfiguração para outro, por exemplo, caso você esteja no modo de configuração de linha e queira ir para o de interface, basta usar o comando **interface FastEthernet 0/1**, esse comando configura a interface para a conexão a porta fastethernet 0/1. Assim como no modo de configuração de linha, você pode especificar qual a conexão que quer para o modo de configuração de interface também. **interface vlan 1** esse comando acessa o modo de configuração de interface que está conectado à vlan 1.
+
+
