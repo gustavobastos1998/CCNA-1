@@ -9,6 +9,12 @@
   ![[IPv4.png]]
 - Os endereços IPv6 têm 128 bits e são escritos como uma sequência de valores hexadecimais. A cada quatro bits é representado por um único dígito hexadecimal; para um total de 32 valores hexadecimais. Grupos de quatro dígitos hexadecimais são separados por dois pontos (:). Os endereços IPv6 não diferenciam maiúsculas e minúsculas e podem ser escritos tanto em minúsculas como em maiúsculas.
 
+### **OBS**
+
+- O default gateway é o endereço IP que o dispositivo deve mandar os pacotes que são destinados para outra rede. Por exemplo, um computador dentro de uma rede dosméstica tem seu default gateway atrelado ao IPv4 do edge router já que é ele que enviará os pacotes que são destinados à outras redes. 
+- O DNS Server é o IPv4 do dispositivo que deverá haver a consulta de um nome de domínio caso você não saiba o IP. Exemplo, um DNS Server comum que é configurado em diversos dispositivos é o 8.8.8.8, esse IP pertence ao google e quando você se conecta a um site na Internet por meio de seu domain name, é feito uma busca no IP do DNS Server buscando o IP atrelado ao domain name. 
+- A máscara de sub-rede diz a qual sub-rede o IPv4 pertence dentro da rede. Por exemplo, caso o IPv4 de uma máquina seja 134.98.2.1 e sua subnet mask seja 255.255.0.0 esse dispositivo pertence à sub-rede 134.98.0.0. Os '255' pertencentes à máscara de rede determinam quais números decimais no IPv4 são **verdadeiros** e os '0' representam os **falsos**. 
+
 # *Interfaces e portas*
 
 - As comunicações em rede dependem de interfaces do dispositivo de usuário final, interfaces do dispositivo de rede e cabos que as conectam. Cada interface física tem especificações ou padrões que a definem. Um cabo conectado à interface deve ser projetado de acordo com os padrões físicos da interface. 
