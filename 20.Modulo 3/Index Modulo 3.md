@@ -4,4 +4,6 @@
 - [[Cap. 1 - As regras]]
 - [[Cap. 2 - Protocolos]]
 - [[Cap. 3 - Conjunto de protocolos]]
+- [[Cap. 4 - Modelos de referencia]]
+- [[Cap. 5 - Encapsulamento de dados]]
 - 
