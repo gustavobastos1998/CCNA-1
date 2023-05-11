@@ -30,7 +30,7 @@
 
 # *Função dos endereços da camada de enlace para uma mesma rede*
 
-- Quando os dispositivos estão na mesma rede o frame da camada de enlace será enviado diretamente ao dispositivo receptor. Pois para o protocolo Ethernet, a origem e o destino dos dispositivos envolvidos na comunicação são identificados pelo MAC ( Media Access Control) address. 
+- Quando os dispositivos estão na mesma rede o frame da camada de enlace será enviado diretamente ao dispositivo receptor. Pois para o protocolo Ethernet, a origem e o destino dos dispositivos envolvidos na comunicação são identificados pelo MAC (Media Access Control) address. 
 - Os endereços MAC são embutidos fisicamente na placa de interface de rede (NIC) Ethernet. 
 - O MAC Ethernet do dispositivo envia o frame de link de dados com o pacote IP encapsulado. Ele é escrito em notação hexadecimal.
 - Exemplo de endereço MAC: AA-AA-AA-AA-AA-AA

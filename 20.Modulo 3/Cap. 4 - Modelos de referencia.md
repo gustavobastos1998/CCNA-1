@@ -1,6 +1,6 @@
 # *Benefícios de usar um modelo de camadas*
 
-- Auxiliar no projeto de protocolos porque os protocolos que operam em uma camada específica definiram as informações sobre as quais atuam e uma interface definida para as camadas acima e abaixo.
+- Auxiliar no projeto de protocolos porque os protocolos que operam em uma camada específica definirão as informações sobre as quais atuam e uma interface definida para as camadas acima e abaixo.
 - Fomentar a concorrência porque produtos de diferentes fornecedores podem trabalhar juntos.
 - Impedir que alterações de tecnologia ou capacidade em uma camada afetem outras camadas acima e abaixo.
 - Fornecer uma linguagem comum para descrever funções e capacidades de rede.

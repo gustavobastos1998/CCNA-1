@@ -1,6 +1,6 @@
 # *Conjunto de protocolos de rede*
 
-- Os conuuntos de protocolos são projetados para poderem trabalhar entre si sem problemas. Um conjunto de protocolos é um grupo de protocolos inter-relacionados necessários para executar uma função de comunicação.
+- Os conjuntos de protocolos são projetados para poderem trabalhar entre si sem problemas. Um conjunto de protocolos é um grupo de protocolos inter-relacionados necessários para executar uma função de comunicação.
 - Uma das melhores maneiras de visualizar como os protocolos dentro de uma suíte interagem é ver a interação como uma pilha. Uma pilha de protocolos mostra como os protocolos individuais dentro de uma suíte são implementados. Os protocolos são visualizados em termos de camadas, com cada serviço de nível superior, dependendo da funcionalidade definida pelos protocolos mostrados nos níveis inferiores.
 
 # *Evolução dos conjuntos de protocolos*
@@ -11,7 +11,7 @@
 
 # *Exemplo de protocolo TCP/IP*
 
-- Os protocolos TCP / IP estão disponíveis para as camadas de aplicativo, transporte e Internet. Não há protocolos TCP/IP na camada de acesso à rede. Os protocolos LAN da camada de acesso à rede mais comuns são os protocolos Ethernet e WLAN (LAN sem fio). Os protocolos da camada de acesso à rede são responsáveis por entregar o pacote IP pela mídia física.
+- Os protocolos TCP/IP estão disponíveis para as camadas de aplicativo, transporte e Internet. Não há protocolos TCP/IP na camada de acesso à rede. Os protocolos LAN da camada de acesso à rede mais comuns são os protocolos Ethernet e WLAN (LAN sem fio). Os protocolos da camada de acesso à rede são responsáveis por entregar o pacote IP pela mídia física.
 - A figura mostra um exemplo dos três protocolos TCP/IP usados para enviar pacotes entre o navegador da Web de um host e o servidor web. HTTP, TCP e IP são os protocolos TCP/IP usados. Na camada de acesso à rede, Ethernet é usada no exemplo. No entanto, isso também pode ser um padrão sem fio, como WLAN ou serviço celular.
 - ![[protocolo tcp-ip.png]]
 

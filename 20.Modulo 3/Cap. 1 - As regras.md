@@ -56,7 +56,7 @@
 
 # *Temporização da mensagem*
 
-- O tempo das mensagens também é importante ans comunicações de rede. 
+- O tempo das mensagens também é importante nas comunicações de rede. 
 
 ### **Controle de Fluxo**
 
