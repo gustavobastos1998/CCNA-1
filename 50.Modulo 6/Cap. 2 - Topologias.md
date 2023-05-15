@@ -62,6 +62,7 @@
 
 - Para LANs Ethernet herdadas, ambos os dispositivos detectam a colisão na rede. Esta é a parte de detecção de colisão (CD) do CSMA/CD. 
 - A NIC compara os dados transmitidos com os dados recebidos ou reconhecendo que a amplitude do sinal é maior que o normal na mídia. Os dados enviados por ambos os dispositivos serão corrompidos e precisarão ser reenviados.
+- O uso de switches da Camada 2 que operam no modo full-duplex elimina colisões, eliminando assim a necessidade de CSMA/CD.
 
 # *Acesso baseado em contenção (CSMA/CA)*
 

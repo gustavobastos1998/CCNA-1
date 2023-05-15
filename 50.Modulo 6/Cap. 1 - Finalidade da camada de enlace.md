@@ -25,6 +25,10 @@
 - A subcamada MAC também fornece controle de acesso a mídia, permitindo que vários dispositivos se comuniquem através de uma mídia compartilhada (half-duplex). As comunicações full-duplex não exigem controle de acesso.
 - A subcamada MAC controla a NIC e outro hardware responsável pelo envio e recebimento de dados no meio LAN/MAN com ou sem fio.
 - Os dois critérios para determinar o método de controle de acesso de mídia usados são: o tipo de compartilhamento de mídia envolvido e a topologia.
+- O encapsulamento de dados IEEE 802.3 inclui o seguinte:
+	- **Quadro Ethernet** - Esta é a estrutura interna do quadro Ethernet.
+	- **Endereçamento Ethernet** - O quadro Ethernet inclui um endereço MAC de origem e de destino para fornecer o quadro Ethernet da NIC Ethernet para a NIC Ethernet na mesma LAN.
+	- **Detecção de erro Ethernet** - O quadro Ethernet inclui um trailer de sequência de verificação de quadros (FCS) usado para detecção de erros.
 - ![[LLC e MAC.png]]
 
 ### **Delimitação de quadros**
