@@ -37,10 +37,9 @@
 ### **Dados**
 
 - Contém os dados encapsulados de um camada superior, que é uma PDU de Camada 3 genérica, ou mais comumente, um IPv4 pacote. 
-- Todos os quadros devem ter pelo menos 64 bytes. Se um pequeno pacote for encapsulado, bits adicionais chamados pad são usados para aumentar o tamanho do quadro para este tamanho mínimo.
+- Todos os quadros devem ter pelo menos 64 bytes. Se um pequeno pacote for encapsulado, bits adicionais chamados pad são usados para aumentar o tamanho do quadro para este tamanho mínimo. O termo 'runt' é geralmente usado para designar um quadro de tamanho menor que o permitido. 
 ### **Sequência de Verificação de Quadro**
 
 - FCS (Frame Check Sequence) é usado para detectar erros em um quadro. Ele utiliza uma verificação de redundância cíclica (CRC).
 - O dispositivo de envio inclui os resultados de um CRC no campo FCS do quadro. O dispositivo receptor recebe o quadro e gera um CRC para procurar erros.
 - Se o cálculo corresponder, significa que não houve erro. Cálculos que não coincidem são uma indicação de que os dados foram alterados. Portanto, o quadro é descartado.
-- 

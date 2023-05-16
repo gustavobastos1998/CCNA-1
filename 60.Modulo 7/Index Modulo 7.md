@@ -5,4 +5,4 @@
 - [[Cap. 1 - Quadros Ethernet]]
 - [[Cap. 2 - Endereco MAC Ethernet]]
 - [[Cap. 3 - Tabela de Endereco MAC]]
-- 
+- [[Cap. 4 - Metodos de encaminhamento e velocidades de switches]]
