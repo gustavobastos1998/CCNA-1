@@ -26,7 +26,7 @@
 
 ### **Comutação fragment-free**
 
-- Livre de fragmentos, o switch armazena os primeiros 64 bytes do quadro antes de encaminhar. Pode ser encarado como omeio termo entre o fast-forward e store-and-forward. 
+- Livre de fragmentos, o switch armazena os primeiros 64 bytes do quadro antes de encaminhar. Pode ser encarado como o meio termo entre o fast-forward e store-and-forward. 
 - A maioria dos erros e as colisões de rede são encontradas nos primeiros 64 bytes. 
 - O switching fragment-free tenta melhorar o switching fast-forward executando uma pequena verificação de erros nos primeiros 64 bytes do quadro para garantir que não ocorra uma colisão antes de encaminhar o quadro.
 - O switching fragment-free é um compromisso entre a alta latência e a alta integridade do switching store-and-forward e a baixa latência e a integridade reduzida do switching fast-forward.
@@ -50,4 +50,4 @@
 - Caso os dispositivos fossem os mesmos (switch conecta switch), o cabo utilizado é o cruzado. O cabo direto é usado para dispositivos diferentes.
 - <mark style="background: #BBFABBA6;">OBS</mark>: uma conexão direta entre um roteador e um host requer um cabo cruzado.
 - A maioria dos dispositivos de switch agora suporta o recurso de (Auto-MDIX) interface dependente automática. Quando ativado, o switch detecta automaticamente o tipo de cabo conectado à porta e configura as interfaces de acordo. 
-- Com isso, você pode utilizar um cabo cruzado ou direto para conexões a uma porta 10/100/1000 de cobre no switch, seja qual for o tipo de dispositivo na outra extremidade da conexão.
+- Com isso, você pode utilizar um cabo cruzado ou direto para conexões a uma porta 10/100/1000 Mb/s de cobre no switch, seja qual for o tipo de dispositivo na outra extremidade da conexão.

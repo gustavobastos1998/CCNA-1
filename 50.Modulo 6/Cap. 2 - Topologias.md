@@ -52,7 +52,7 @@
 - Em redes multiacesso baseadas em contenção, todos os nós estão operando em half-duplex, competindo pelo uso do meio.
 - Exemplos de métodos de acesso baseados em contenção incluem o seguinte:
 	- Acesso múltiplo com detecção de colisão (CSMA/CD) usado em LANs Ethernet de topologia de barramento herdado.
-	- Acesso múltiplo por operadora com preveção de olisão (CSMA/CA) usado em WLANs.
+	- Acesso múltiplo por operadora com preveção de colisão (CSMA/CA) usado em WLANs.
 
 ### **Acesso controlado**
 
