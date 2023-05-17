@@ -29,7 +29,7 @@
 # *Sem conexão*
 
 - Significa que nenhuma conexão ponta a ponta dedicada é criada pelo IP antes que os dados sejam enviados. 
-- A comunicação sem conexão é enviar um pacote sem informar o destinatário com antecedência. 
+- A comunicação sem conexão envia um pacote sem informar o destinatário com antecedência. 
 
 # *Melhor esforço*
 

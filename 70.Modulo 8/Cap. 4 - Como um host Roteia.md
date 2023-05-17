@@ -15,4 +15,21 @@
 
 # *O host direciona para o gateway padrão*
 
-- 
+- Uma tabela de roteamento de host normalmente inclui um gateway padrão.
+- A configuração do gateway padrão cria uma rota padrão na tabela de roteamento do computador. Uma rota padrão é a rota ou o caminho que o computador usa quando tenta entrar em contato com uma rede remota.
+
+# *Tabela de Roteamento dos hosts*
+
+- A inserção do comando **netstat -r** ou o comando equivalente **route print** exibe três seções relacionadas às conexões de rede TCP / IP atuais:
+
+### **Lista de Interfaces**
+
+- Lista o endereço MAC e o número de interface atribuído de todas as interfaces com capacidade de rede no host, incluindo adaptadores Ethernet, Wi-Fi e Bluetooth.
+
+### **Tabela de rotas IPv4**
+
+- Lista todas as rotas IPv4 conhecidas, incluindo conexões diretas, rede local e rotas padrão locais.
+
+### **Tabela de rotas IPv6**
+
+- Lista todas as rotas IPv6 conhecidas, incluindo conexões diretas, rede local e rotas padrão locais.
