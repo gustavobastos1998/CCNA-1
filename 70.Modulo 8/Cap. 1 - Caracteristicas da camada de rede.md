@@ -20,4 +20,28 @@
 
 # *Características do IP*
 
-- 
+- O protocolo IP fornece apenas as funções necessárias para enviar um pacote de uma origem a um destino por um sistema interconectado de redes. O protocolo não foi projetado para rastrear e gerenciar o fluxo de pacotes. Essas funções, se exigido, são realizadas por outros protocolos em outras camadas, principalmente TCP na Camada 4.
+- Estas são as características básicas da IP:
+	- **Sem conexão** - Não há conexão com o destino estabelecido antes do envio de pacotes de dados.
+	- **Melhor esforço** - o IP é inerentemente não confiável, porque a entrega de pacotes não é garantida.
+	- **Independente da mídia** - A operação é independente do meio (ou seja, cobre, fibra ótica ou sem fio) que carrega os dados.
+
+# *Sem conexão*
+
+- Significa que nenhuma conexão ponta a ponta dedicada é criada pelo IP antes que os dados sejam enviados. 
+- A comunicação sem conexão é enviar um pacote sem informar o destinatário com antecedência. 
+
+# *Melhor esforço*
+
+- O protocolo IP não garante que o pacote enviado seja, de fato, recebido. A figura ilustra a característica de entrega não confiável ou de melhor esforço do protocolo IP.
+- ![[melhor esforco.png]]
+
+# *Independente de mídia*
+
+- Não confiável significa que o IP não tem a capacidade de gerenciar e recuperar pacotes não entregues ou corrompidos. Os pacotes podem chegar ao destino corrompidos, fora de sequência ou simplesmente não chegar. O IP não tem capacidade de retransmitir os pacotes em caso de erros.
+- Se os pacotes forem entregues fora de ordem ou estiver faltando algum pacote, as aplicações que usam os dados, ou serviços de camada superior, deverão resolver esses problemas. Isso permite que o IP funcione de forma bem eficiente. No conjunto de protocolos TCP / IP, a confiabilidade é o papel do protocolo TCP na camada de transporte.
+- O IP opera independente da mídia que transporta os dados. Esse é o papel dos protocolos da camada de data link.
+- ![[independente de midia.png]]
+- Há, no entanto, uma característica muito importante dos meios físicos que a camada de rede considera: o tamanho máximo da PDU que cada meio consegue transportar. 
+- Essa característica é chamada de unidade máxima de transmissão (maximum transmission unit - MTU). A camada de enlace de dados informa o valor da MTU para a camada de rede. 
+- Em alguns casos, um dispositivo intermediário, geralmente um roteador, deve dividir um pacote IPv4 ao transmiti-lo de um meio para outro com uma MTU menor. Esse processo é conhecido como fragmentação ed pacote ou fragmentação. A fragmentação causa latência. Os pacotes IPv6 não podem ser fragmentados pelo roteador.
