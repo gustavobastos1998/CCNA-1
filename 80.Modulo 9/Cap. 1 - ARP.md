@@ -39,3 +39,15 @@
 - Caso o IPv4 de destino não esteja na rede local, ele deverá encaminhar o quadro para o gateway padrão.
 - Quando um host cria um pacote para um destino, ele compara o IPv4 destino com o seu próprio para determinar se estão na mesma rede. Caso não esteja, a origem utiliza a tabela ARP e encaminha o quadro para o gateway padrão. 
 - Caso o MAC do gateway padrão não esteja em sua tabela, ele fará o processo de ARP para determinar um endereço MAC do gateway padrão.
+
+# *Problemas de ARP - transmissões de ARP e falsificação de ARP*
+
+- Caso um grande número de dispositivos precisem acessar serviços de rede ao mesmo tempo, pode haver alguma redução no desempenho por um curto período de tempo. 
+- Depois que os dispositivos enviarem os broadcasts ARP iniciais e tiverem reconhecido os endereços MAC necessários, qualquer impácto na rede será minimizado.
+
+### **Falsificação ARP**
+
+- É um ataque de envenenamento por ARP. O ataque funciona da seguinte forma, quando uma requisição broadcast ARP é mandada na rede, um dos dispositivos, que não seja o IPv4 na requisição, responde como se fosse ele. Dessa maneira, o dispositivo que fez a requisição ARP adiciona à sua tabela o MAC errado para o IP requerido. 
+- Com o ataque bem sucedido, quando o dispositivo quiser mandar alguma informação para, por exemplo, o gateway padrão o pacote irá ser enviado para o MAC do atacante.
+- ![[falsificacao arp.png]]
+
