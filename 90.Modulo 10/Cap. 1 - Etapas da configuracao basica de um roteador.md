@@ -1,0 +1,4 @@
+- Para um aparelho da cisco, as configurações de um roteador são bem parecidas com a de um switch.
+- As diferenças que notei a primeira vista são:
+	- As linhas vty não <mark style="background: #FF5582A6;">vão de 0 a 15</mark>, no roteador <mark style="background: #BBFABBA6;">vão de 0 a 4</mark>. 
+	- Após settar senha para as senhas para as vty 0 4, além de precisar utilizar o comando <mark style="background: #ABF7F7A6;">login</mark> após ele temos de usar <mark style="background: #ABF7F7A6;">transport input {ssh | telnet}</mark>. Isso serve para proteger o acesso remoto ssh/telnet. 
