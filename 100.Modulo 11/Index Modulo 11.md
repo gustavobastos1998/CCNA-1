@@ -5,4 +5,6 @@
 - [[Cap. 1 - Estrutura IPv4]]
 - [[Cap. 2 - Unicast, broadcast e multicast IPv4]]
 - [[Cap. 3 - Tipos de endereco IPv4]]
+- [[Cap. 4 - Segmentacao de rede]]
+- [[Cap. 5 - Sub-rede IPv4]]
 - 
