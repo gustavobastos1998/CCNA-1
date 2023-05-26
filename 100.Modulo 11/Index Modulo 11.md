@@ -7,4 +7,6 @@
 - [[Cap. 3 - Tipos de endereco IPv4]]
 - [[Cap. 4 - Segmentacao de rede]]
 - [[Cap. 5 - Sub-rede IPv4]]
+- [[Cap. 6 - Divisao em sub redes para atender a requisitos]]
+- [[Cap. 7 - VLSM]]
 - 
