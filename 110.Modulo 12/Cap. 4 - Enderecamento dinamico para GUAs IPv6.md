@@ -53,3 +53,22 @@
 - Quando a mensagem de RA é SLAAC ou SLAAC com DHCPv6 stateless, o cliente deve gerar sua própria ID da interface. O cliente conhece a parte de prefixo do endereço da mensagem de RA, mas deve criar sua própria ID da interface. 
 - A ID da interface pode ser criada por meio do processo EUI-64 ou de um número de 64 bits gerado aleatoriamente, como mostrado na imagem.
 - ![[ID interface.png]]
+
+# *Processo EUI-64*
+
+- Esse processo usa o endereço MAC Ethernet de 48 bits de um cliente e insere outros 16 bits no meio do endereço MAC de 48 bits para criar uma ID da interface de 64 bits.
+- Geralmente representados em hexadecimal, os endereços MAC de Ethernet são compostos de duas partes:
+	- **Identificador Organizacional Exclusivo (OUI)** – O OUI é um código de 24 bits do fornecedor (6 dígitos hexadecimais) atribuído pela IEEE.
+	- **Identificador de dispositivo** – O identificador de dispositivo é um valor exclusivo de 24 bits (6 dígitos hexadecimais) com um OUI em comum.
+- Uma ID da interface EUI-64 é representada em binário e composta por três partes:
+	- OUI de 24 bits do endereço MAC do cliente, mas o sétimo bit (o bit universal/local (U/L)) é invertido. Isso significa que, se o sétimo bit for 0, ele se tornará 1, e vice-versa.
+	- O valor de 16 bits fffe (em hexadecimal) inserido.
+	- Identificador de dispositivo de 24 bits do endereço MAC do cliente.
+- ![[Processo EUI-64.png]]
+
+# *IDs da interface gerados aleatoriamente*
+
+- Dependendo do sistema operacional, um dispositivo pode usar uma ID da interface gerada de forma aleatória em vez de usar o endereço MAC e o processo EUI-64.
+- Depois que a ID da interface for estabelecida, seja pelo processo de EUI-64 ou por geração aleatória, ela poderá ser combinada a um prefixo IPv6 da mensagem de RA para criar um endereço unicast global.
+- ![[id da interface gerada aleatoriamente.png]]
+- **Observação**: para garantir a exclusividade de qualquer endereço IPv6 unicast, o cliente pode usar um processo conhecido como detecção de endereço duplicado (DAD). Isso equivale a uma solicitação ARP para seu próprio endereço. Se não houver resposta, significa que o endereço é exclusivo.
