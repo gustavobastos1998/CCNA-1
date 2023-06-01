@@ -6,4 +6,6 @@
 - [[Cap. 2 - Visao geral do TCP]]
 - [[Cap. 3 - Visao Geral do UDP]]
 - [[Cap. 4 - Numeros de Porta]]
+- [[Cap. 5 - Processo de Comunicacao TCP]]
+- [[Cap. 6 - Confiabilidade e controle de fluxo]]
 - 
