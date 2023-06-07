@@ -44,7 +44,7 @@
 
 - Use o comando <mark style="background: #ABF7F7A6;">login local</mark> em <mark style="background: #BBFABBA6;">configuração de linha</mark> para autenticar a linha <mark style="background: #BBFABBA6;">vty</mark> no banco de dados local. 
 
-### **Etapa 6. Habilite as sessõs SSH de entrada vty**
+### **Etapa 6. Habilite as sessões SSH de entrada vty**
 
 - Por padrão, nenhuma sessão de entrada é permitida em <mark style="background: #BBFABBA6;">linhas vty</mark>. Para habilitar o ssh e o telnet, use o comando <mark style="background: #ABF7F7A6;">transport input ssh telnet</mark>. 
 
