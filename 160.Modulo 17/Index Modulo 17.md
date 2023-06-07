@@ -6,4 +6,6 @@
 - [[Cap. 2 - Aplicacoes e Protocolos de Redes Pequenas]]
 - [[Cap. 3 - Escalar para redes maiores]]
 - [[Cap. 4 - Verificar conectividade]]
+- [[Cap. 5 - Host e comandos IOS]]
+- [[Cap. 6 - Metodologias de solucao de problemas]]
 - 
