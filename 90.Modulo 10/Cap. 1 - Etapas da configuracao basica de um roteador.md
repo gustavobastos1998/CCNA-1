@@ -2,3 +2,4 @@
 - As diferenças que notei a primeira vista são:
 	- As linhas vty não <mark style="background: #FF5582A6;">vão de 0 a 15</mark>, no roteador <mark style="background: #BBFABBA6;">vão de 0 a 4</mark>. 
 	- Após settar senha para as senhas para as vty 0 4, além de precisar utilizar o comando <mark style="background: #ABF7F7A6;">login</mark> após ele temos de usar <mark style="background: #ABF7F7A6;">transport input {ssh | telnet}</mark>. Isso serve para proteger o acesso remoto ssh/telnet. 
+	- Caso o roteador não tenha um static route, para configurar basta ir na <mark style="background: #BBFABBA6;">configuração global</mark> e digitar o comando ip ==route 0.0.0.0 0.0.0.0 _ip-next-hop_==. É recomendado usar o IP do próximo hop, geralmente o IP do roteador conectado ao primeiro.
