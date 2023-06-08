@@ -8,4 +8,4 @@
 - [[Cap. 4 - Verificar conectividade]]
 - [[Cap. 5 - Host e comandos IOS]]
 - [[Cap. 6 - Metodologias de solucao de problemas]]
-- 
+- [[Cap. 7 - Cenarios de solucao de problemas]]
